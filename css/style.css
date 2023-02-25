@@ -73,7 +73,7 @@ a:hover{
     color: #EAF6F6;
 }
 .skill-row{
-    width: 50%;
+    width: 60%;
     margin: 80px auto 100px auto;
     text-align: left;
     line-height: 2;
@@ -81,12 +81,14 @@ a:hover{
 .skills{
     
 }
-.chilli-img{
+.handwritten-img{
     width: 25%;
     float: left;
     margin-right: 30px;
+    border-radius: 100%;
+    border-color: black;
 }
-.computer-img{
+.voting-img{
     width: 25%;
     float: right;
     margin-left: 30px;
@@ -143,3 +145,12 @@ hr{
     background-image: linear-gradient(to bottom, #30ecbe, #2bc4ad);
     text-decoration: none;
   }
+  .code-link{
+    text-decoration: none;
+    color:#11999E;
+    position: relative;
+    left: 570px;
+  }
+.code-link:hover{
+    color: #2bc4ad;
+}

@@ -48,6 +48,7 @@ h3{
     margin: 100px auto;
   }
 .bottom-container{
+    position: relative;
     line-height: 2;
     margin-top: 60px;;
     background-color:  #66BFBF;
@@ -58,13 +59,14 @@ h3{
     border-radius: 8;
     position: relative;
     text-decoration: none ;
-    top: 25px;
+    top: 40px;
     line-height: 2;
 }
 .footer-link{
     position: relative;
+    left: 20px;
     top: 40px;
-   margin: 20px;
+   margin: 30px;
     color:#11999E;
     text-decoration: none /* <!-- removes underline--> */
 
@@ -86,12 +88,14 @@ a:hover{
     float: left;
     margin-right: 30px;
     border-radius: 100%;
-    border-color: black;
+    border: solid #11999E;
 }
 .voting-img{
     width: 25%;
     float: right;
     margin-left: 30px;
+    border-radius: 100%;
+    border: solid #11999E;
 }
 .profile{
     width: 50%;
@@ -153,4 +157,25 @@ hr{
   }
 .code-link:hover{
     color: #2bc4ad;
+}
+.demo-link{
+    position: relative;
+    top: 30px;
+    color:#11999E;
+    text-decoration: none;
+
+}
+.demo-link:hover{
+    color: #2bc4ad;
+}
+.insta-img{
+    position: absolute;
+    right: 80px;
+    top: 0px;
+    width: 30px;
+}
+.text{
+    font-weight: lighter;
+    width: 50%;
+    margin: 0 auto;
 }
